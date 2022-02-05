@@ -12,6 +12,9 @@ body {
   color: var(--font-black1);
   letter-spacing: 0.03em;
 }
+body ul {
+  list-style-type: none;
+}
 /* стили хеддера */
 .logo {
   font-family: "Raleway", sans-serif;
@@ -124,4 +127,34 @@ body {
 .link:hover,
 .link:focus {
   color: var(--font-blue);
+}
+
+/* стили portfolio main */
+.button {
+  background-color: var(--background-gray);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+}
+.button:hover,
+.button:focus {
+  background-color: var(--font-blue);
+  color: var(--font-white);
+}
+.products a {
+  text-decoration: none;
+}
+.products-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--font-black1);
+}
+.products-text {
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--font-gray);
 }
