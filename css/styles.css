@@ -32,10 +32,7 @@ body {
   text-decoration: none;
   color: var(--font-black1);
 }
-.link:hover,
-.link:focus {
-  color: var(--font-blue);
-}
+
 .header-contacts a {
   font-weight: 500;
   font-size: 14px;
@@ -123,4 +120,8 @@ body {
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
+}
+.link:hover,
+.link:focus {
+  color: var(--font-blue);
 }
