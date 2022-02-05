@@ -5,18 +5,19 @@
   --font-black1: #212121;
   --font-gray: #757575;
   --background-black: #2f303a;
+  --background-gray: #f5f4fa;
 }
 body {
   font-family: "Roboto", sans-serif;
   color: var(--font-black1);
+  letter-spacing: 0.03em;
 }
 /* стили хеддера */
 .logo {
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-weight: bold;
   font-size: 26px;
-  line-height: 0.83;
-  letter-spacing: 0.03em;
+  line-height: 1.19;
   text-decoration: none;
   color: var(--black2-color);
 }
@@ -26,21 +27,19 @@ body {
 .navigation-links a {
   font-weight: 500;
   font-size: 14px;
-  line-height: 0.87;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--font-black1);
 }
-.navigation-links a:hover,
-.navigation-links a:focus,
-.header-contacts a:hover,
-.header-contacts a:focus {
+.link:hover,
+.link:focus {
   color: var(--font-blue);
 }
 .header-contacts a {
   font-weight: 500;
   font-size: 14px;
-  line-height: 0.87;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--font-gray);
 }
@@ -53,19 +52,56 @@ body {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
 .title button {
-  background-color: var(--font-blue);
-  border: var(--font-blue);
+  background: var(--font-blue);
 
+  font-family: inherit;
   color: var(--font-white);
-  font-family: "Roboto", sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
-  line-height: 1.9;
+  line-height: 1.87;
   letter-spacing: 0.06em;
 }
+.peculiarities-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.peculiarities-text {
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--font-gray);
+}
+.works-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+.team-section {
+  background: var(--background-gray);
+}
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+.card-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+}
+.card-text {
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  color: var(--font-gray);
+}
+/* стили футера */
